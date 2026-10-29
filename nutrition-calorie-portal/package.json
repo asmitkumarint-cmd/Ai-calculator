@@ -1,0 +1,25 @@
+{
+  "name": "rx-restaurant-calorie-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:data": "python scripts/build_portal_data.py",
+    "build:genai-assets": "node scripts/build_genai_assets.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "openai": "^6.6.0",
+    "papaparse": "^5.5.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6"
+  }
+}

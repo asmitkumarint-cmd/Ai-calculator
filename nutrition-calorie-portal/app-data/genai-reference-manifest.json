@@ -1,0 +1,9 @@
+{
+  "createdAt": "2026-04-13T10:58:01.442Z",
+  "source": "..\\High Protein Estimator (version 1)\\train_metadata.csv",
+  "embeddingModel": "text-embedding-3-small",
+  "count": 8152,
+  "dimensions": 512,
+  "batchSize": 100,
+  "priceStrategy": "price-band-only"
+}

@@ -1,0 +1,60 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700,900&display=swap");
+
+:root {
+  --swiggy-orange: #ff5200;
+  --swiggy-orange-strong: #e24700;
+  --ink: #0f0f10;
+  --ink-soft: #202124;
+  --smoke: #6f7278;
+  --paper: #ffffff;
+  --paper-soft: #f7f7f8;
+  --line: rgba(15, 15, 16, 0.08);
+  --line-strong: rgba(15, 15, 16, 0.16);
+  --success: #0f8d60;
+  --shadow-soft: 0 22px 60px rgba(15, 15, 16, 0.08);
+  --shadow-strong: 0 28px 80px rgba(15, 15, 16, 0.14);
+  --font-body: "Satoshi", "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Clash Display", "Satoshi", "Avenir Next", sans-serif;
+
+  /* Bulk page tokens */
+  --bulk-border: 1px solid rgba(15, 23, 42, 0.08);
+  --bulk-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top right, rgba(255, 82, 0, 0.1), transparent 24%),
+    radial-gradient(circle at left 18%, rgba(255, 82, 0, 0.06), transparent 18%),
+    linear-gradient(180deg, #fff8f4 0%, #f4f2f0 48%, #f8f7f5 100%);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}

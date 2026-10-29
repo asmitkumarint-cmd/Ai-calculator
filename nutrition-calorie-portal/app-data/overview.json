@@ -1,0 +1,97 @@
+{
+  "modeledItems": 323693,
+  "uniqueDishNames": 45605,
+  "testItems": 323693,
+  "trainItems": 279450,
+  "referenceRows": 8152,
+  "describedTestShare": 0.5797,
+  "descriptionCoverage": 0.5805,
+  "regexProteinCoverage": 0.0181,
+  "regexEnergyCoverage": 0.016,
+  "topCuisines": [
+    {
+      "name": "North Indian",
+      "count": 184776
+    },
+    {
+      "name": "Chinese/Pan-Asian",
+      "count": 56235
+    },
+    {
+      "name": "Biryani",
+      "count": 18488
+    },
+    {
+      "name": "South Indian",
+      "count": 10366
+    },
+    {
+      "name": "Pizza",
+      "count": 8412
+    },
+    {
+      "name": "Continental/Italian/European",
+      "count": 6803
+    },
+    {
+      "name": "Caf?/Chai",
+      "count": 6399
+    },
+    {
+      "name": "Chaat/Street Food/Mithai",
+      "count": 4944
+    }
+  ],
+  "topModeledItems": [
+    {
+      "name": "Chicken Fried Rice",
+      "count": 25000
+    },
+    {
+      "name": "Paneer Tikka",
+      "count": 15388
+    },
+    {
+      "name": "Paneer Paratha",
+      "count": 12547
+    },
+    {
+      "name": "Chicken Schezwan Fried Rice",
+      "count": 7625
+    },
+    {
+      "name": "Chicken fried rice",
+      "count": 7079
+    },
+    {
+      "name": "Paneer Malai Tikka",
+      "count": 6332
+    },
+    {
+      "name": "Paneer paratha",
+      "count": 4024
+    },
+    {
+      "name": "Paneer tikka",
+      "count": 3803
+    }
+  ],
+  "confidenceMix": [
+    {
+      "label": "High",
+      "count": 99
+    },
+    {
+      "label": "Medium",
+      "count": 502
+    },
+    {
+      "label": "Low",
+      "count": 45004
+    }
+  ],
+  "trainingSignals": {
+    "avgProtein": 24.0,
+    "avgCalories": 452.8
+  }
+}
