@@ -12,7 +12,7 @@ const APP_DATA_DIR = path.join(process.cwd(), "app-data");
 // Defaults to the original 41-row file. Point this at a larger reference
 // file (same column format) to benchmark it without losing the original,
 // same pattern as ICMR_MATCH_MODE and RETRIEVAL_DISH_METADATA.
-const ICMR_FILENAME = process.env.ICMR_REFERENCE_FILE || "icmr-reference.csv";
+const ICMR_FILENAME = process.env.ICMR_REFERENCE_FILE || "icmr_ifct_merged.csv";
 const ICMR_PATH = path.join(APP_DATA_DIR, ICMR_FILENAME);
 const RECORDS_PATH = path.join(APP_DATA_DIR, "genai-reference-records.json");
 const EMBEDDINGS_PATH = path.join(APP_DATA_DIR, "genai-reference-embeddings.f32");
